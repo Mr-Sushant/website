@@ -1,0 +1,15 @@
+*{
+    background-color: black;
+}
+
+.mem-grid{
+    display: flex;    
+    flex-wrap: wrap;
+    height:675px;
+    width:900px;
+    margin:auto;
+    
+}
+h3{
+    color: white;
+}
