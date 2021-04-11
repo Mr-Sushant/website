@@ -32,3 +32,28 @@ h3{
     background-size: cover;
 
 }
+
+.sp-grid{
+    display: grid;
+    grid-template-columns: repeat(15, 30px [col-start]);
+   /* row-gap: 0.2vw;
+    column-gap: 0.2vw;*/
+    
+    margin-left:25%;
+}
+.normal-grid{
+    width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+
+}
+.invader{
+    background-color: red;
+    
+}
+.shooter{
+    background-color: blue;
+}
+.laser{
+    background-color: black;
+}
